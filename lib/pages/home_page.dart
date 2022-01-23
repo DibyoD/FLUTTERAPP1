@@ -5,7 +5,7 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const int day = 2;
+    const int day = 3;
     return Scaffold(
       appBar: AppBar(
         title: Text("FirstApp"),
