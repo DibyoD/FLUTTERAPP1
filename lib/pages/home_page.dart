@@ -8,14 +8,14 @@ class HomePage extends StatelessWidget {
     const int day = 4;
     return Scaffold(
       appBar: AppBar(
-        title: Text("FirstApp"),
+        title: const Text("FirstApp"),
       ),
       body: Center(
         child: Container(
-          child: Text("This is my First App Day ${day}"),
+          child: const Text("This is my First App Day ${day}"),
         ),
       ),
-      drawer: Drawer(),
+      drawer: const Drawer(),
     );
   }
 }
