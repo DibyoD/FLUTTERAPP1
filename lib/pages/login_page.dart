@@ -53,7 +53,9 @@ class _LoginPageState extends State<LoginPage> {
                     children: [
                       TextFormField(
                         decoration: const InputDecoration(
-                            hintText: "Enter Username", labelText: "Username"),
+                            //border: OutlineInputBorder(),
+                            hintText: "Enter Username",
+                            labelText: "Username"),
                         validator: (value) {
                           if (value!.isEmpty) {
                             return "Please Enter Username";
@@ -64,10 +66,12 @@ class _LoginPageState extends State<LoginPage> {
                           setState(() {});
                         },
                       ),
+                      //const SizedBox(height: 10,),
                       TextFormField(
                           obscureText: true,
                           //obscuringCharacter: "*",
                           decoration: const InputDecoration(
+                              //border: OutlineInputBorder(),
                               labelText: "Password",
                               hintText: "Enter Password"),
                           validator: (value) {
