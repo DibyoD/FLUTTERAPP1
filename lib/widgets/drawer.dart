@@ -21,6 +21,7 @@ class MyDrawer extends StatelessWidget {
                 accountName: Text("Dibyo Dhara"),
                 accountEmail: Text("dibyo1234@gmail.com")),
             ListTile(
+              hoverColor: Color(0xFF7E57C2),
               leading: Icon(
                 CupertinoIcons.home,
                 color: Colors.white,

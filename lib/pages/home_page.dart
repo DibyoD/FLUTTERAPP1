@@ -8,6 +8,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     const int day = 4;
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         title: const Text("FirstApp"),
       ),
